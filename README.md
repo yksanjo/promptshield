@@ -58,6 +58,8 @@ It can block malicious inputs, sanitize them, or escalate them for review. It wo
 **Positioning**:
 > "Palo Alto doesn't even understand what a jailbreak is. We catch 10,000+ AI attack patterns they miss."
 
+> "You wouldn't use a firewall from 1995 to protect your network. Why use generic security for AI?"
+
 ### vs. AI Platform Native Security (OpenAI Moderation, Anthropic Safety)
 
 **What They Do**: Basic content filtering for their own platforms.
@@ -93,7 +95,35 @@ This is for:
 - **Security teams** protecting AI-powered applications
 - **Organizations** deploying customer-facing AI agents
 - **Fintech companies** with AI customer service
+- **ANY financial institution** deploying AI assistants (this is our biggest opportunity - we're first to market)
 - **Anyone** using AI agents that interact with users
+
+## Target Segments
+
+### Financial Institutions Deploying AI Assistants
+**Why We Fit**: This is a NEW category - we're defining the market. EU AI Act requires AI security controls, and traditional WAFs don't understand prompt injection.
+
+**Positioning**: "You wouldn't use a firewall from 1995 to protect your network. Why use generic security for AI?"
+
+**Urgency Driver**: EU AI Act requires AI security controls
+
+### Mid-Market Banks
+**Why We Fit**: Can't afford enterprise security platforms, but need protection for AI deployments.
+
+**Positioning**: "Enterprise-grade AI security at mid-market prices."
+
+### Fintech Startups
+**Why We Fit**: Fast-moving, deploying AI features quickly, need modern security tools.
+
+**Positioning**: "Scale-up pricing. Start small, grow with us."
+
+## Our Competitive Advantages
+
+1. **Category Creator**: We DEFINE the market - first solution for prompt injection
+2. **Purpose-Built**: Only solution specifically designed for AI prompt injection
+3. **Proven Threat**: 10,000+ attack patterns documented and detected
+4. **Easy Integration**: Works with any LLM provider, integrates in minutes
+5. **Open Source**: Transparent, auditable, community-driven
 
 ## Current Status
 
