@@ -2,6 +2,8 @@
 
 > AI Agent Input Validation System
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/promptshield?style=social)](https://github.com/yksanjo/promptshield/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/promptshield.svg)](https://github.com/yksanjo/promptshield/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/promptshield.svg)](https://github.com/yksanjo/promptshield/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/promptshield.svg)](https://github.com/yksanjo/promptshield/commits/main)
+
 ## What This Is
 
 PromptShield is an open-source security tool that protects AI agents (like chatbots, virtual assistants, etc.) from prompt injection attacks. It validates and sanitizes all user inputs before they reach your AI agents, preventing hackers from tricking them into doing unauthorized things.
