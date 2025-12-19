@@ -38,12 +38,61 @@ PromptShield analyzes every user input to your AI agents and detects:
 
 It can block malicious inputs, sanitize them, or escalate them for review. It works with major AI platforms (OpenAI, Anthropic, Google, Azure) and can be integrated as middleware in your application.
 
+## How We're Different
+
+### vs. Traditional WAF (Palo Alto, Cloudflare, AWS WAF)
+
+**What They Do**: Web application firewalls, block based on signatures, protect against SQL injection, XSS.
+
+**What We Do**: AI prompt injection defense, understand AI language patterns, protect against jailbreaks.
+
+**Our Advantage**:
+- **AI-Specific**: We understand prompt injection, jailbreaks, DAN attacks (they don't)
+- **10,000+ Attack Patterns**: Database of known AI attacks they've never seen
+- **Semantic Analysis**: Understands intent, not just signatures
+- **ML-Based Detection**: Trained on AI attacks, not web attacks
+- **Lower False Positives**: Context-aware, understands legitimate AI conversations
+
+**The Reality**: Palo Alto is great for blocking SQL injection. But when a hacker says "Ignore previous instructions and...", Palo Alto sees "normal text." We see "prompt injection attack."
+
+**Positioning**:
+> "Palo Alto doesn't even understand what a jailbreak is. We catch 10,000+ AI attack patterns they miss."
+
+### vs. AI Platform Native Security (OpenAI Moderation, Anthropic Safety)
+
+**What They Do**: Basic content filtering for their own platforms.
+
+**What We Do**: Vendor-agnostic, works with all AI platforms, advanced detection.
+
+**Our Advantage**:
+- **Vendor-Agnostic**: Works with OpenAI, Anthropic, Google, Azure, local models
+- **Advanced Detection**: ML-based, not just keyword filtering
+- **Independent Validation**: Not tied to AI vendor, so you get unbiased protection
+- **Custom Rules**: Banking-specific patterns they don't have
+
+**The Reality**: OpenAI's moderation is good for basic content. But for financial services, you need deeper protection. We provide it.
+
+### vs. Build-It-Yourself
+
+**What They Do**: Internal teams building custom prompt validation.
+
+**What We Do**: Open-source, pre-built attack pattern database, community-maintained.
+
+**Our Advantage**:
+- **Save 6-12 Months**: Don't rebuild prompt injection detection from scratch
+- **Attack Pattern Database**: 1000+ known attacks, continuously updated
+- **Always Updated**: New attacks? We add detection. Community contributes patterns.
+- **Cost**: Free vs. $200K+ internal development
+
+**The Reality**: Prompt injection detection is hard. Pattern matching, ML models, semantic analysis - we've already solved it.
+
 ## Who This Is For
 
 This is for:
 - **Developers** building AI chatbots or virtual assistants
 - **Security teams** protecting AI-powered applications
 - **Organizations** deploying customer-facing AI agents
+- **Fintech companies** with AI customer service
 - **Anyone** using AI agents that interact with users
 
 ## Current Status
