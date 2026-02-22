@@ -1,41 +1,82 @@
 # promptshield
 
+## Detailed Description
 
+promptshield is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-> 🛡️ AI prompt security and validation tool to protect against prompt injection attacks
+## Problem Statement
 
-## 🚀 Features
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-✅ Real-time threat detection
-✅ Automated security monitoring
-✅ Comprehensive audit logs
+## Solution Overview
 
-## 📦 Installation
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-```bash
-# Clone the repository
-git clone https://github.com/yksanjo/promptshield.git
-cd promptshield
+## Key Features
 
-# Follow project-specific instructions in docs/
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-## 💡 Usage
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-# See documentation for detailed usage
-./promptshield --help
+make test
+make lint
 ```
 
-## 🛠️ Tech Stack
+## Usage
 
-- **Primary Language:** Multi-language
-- **Category:** Security Solutions
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## 📄 License
+## Quality Standards
 
-This project is licensed under the MIT License.
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
----
+## Security
 
-*Built with ❤️ by [yksanjo](https://github.com/yksanjo)*
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
